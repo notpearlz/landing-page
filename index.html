@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
         <title>Landing Page</title>
     </head>
     <body>
@@ -9,24 +10,26 @@
 
             <div class="top">
 
-                <div>
+                <div class="logo">
                     Header Logo
+
+                    <ul class="secondary-text">
+                        <li><a>header link one</a></li>
+                        <li><a>header link two</a></li>
+                        <li><a>header link three</a></li>
+                    </ul>    
                 </div>
 
-                <ul>
-                    <li><a>header link one</a></li>
-                    <li><a>header link two</a></li>
-                    <li><a>header link three</a></li>
-                </ul>    
+                
             </div>
 
             <div class="bottom">
                 <div class="text">
-                    <div>This website is awesome</div>
-                    <div>This website has some subtext that goes here under the main title. It's a smaller font and color is lower contrast</div>
-                    <button class="sign-up">Sign up</button>
+                    <div class="main-text">This website is awesome</div>
+                    <div class="secondary-text">This website has some subtext that goes here under the main title. It's a smaller font and color is lower contrast</div>
+                    <button class="sign-up round">Sign up</button>
                 </div>
-                <img src="./images/placeholder.png">
+                <img src="images/placeholder.png">
             </div>
 
         </div>
@@ -34,27 +37,31 @@
 
 
         <div class="body">
-            Some random information.
+            <div class="text">
+                Some random information.
+            </div>
 
             <ul>
-                <li><img src="./images/placeholder.png"></li>
-                <li><img src="./images/placeholder.png"></li>
-                <li><img src="./images/placeholder.png"></li>
-                <li><img src="./images/placeholder.png"></li>
+                <li><img src="images/placeholder.png"></li>
+                <li><img src="images/placeholder.png"></li>
+                <li><img src="images/placeholder.png"></li>
+                <li><img src="images/placeholder.png"></li>
             </ul>
+        </div>
 
 
-            <div>
-                This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
-                -Thor, God of Thunder
-            </div>
+        <div class="quote">
+            This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
+            -Thor, God of Thunder
+        </div>
 
 
-            <div>
+        <div class="action round">
+            <div class="secondary-text">
                 Call to action! It's time!
                 Sign up for our product by clicking that button right over there!
-                <button class="sign-up">Sign up</button>
             </div>
+            <button class="sign-up round">Sign up</button>
         </div>
 
 
@@ -62,8 +69,6 @@
         <div class="footer">
             Copyright @ The Odin Project 2021
         </div>
-
-
 
     </body>
 </html>
