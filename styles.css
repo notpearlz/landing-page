@@ -121,6 +121,10 @@ a{
     justify-content: center;
 }
 
+.body img{
+    border: #3882F6 5px solid;
+}
+
 
 
 .quote{
